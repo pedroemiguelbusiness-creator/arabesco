@@ -32,8 +32,9 @@ Antes de publicar, resolver os pontos "Bloqueiam a publicação" do `PENDENTES.m
 
 ## Notas de design
 
-- Em telemóvel o cabeçalho tem o nome e um botão de navegação. O contacto telefónico está na barra fixa no fundo do ecrã.
-  Em ecrãs largos a navegação fica aberta e o botão "Ligar" está no cabeçalho.
+- Em telemóvel o cabeçalho tem o nome e um botão de navegação. Em ecrãs largos a navegação fica aberta.
+- O botão "Ligar 217 783 344" está sempre visível: barra no fundo do ecrã em telemóvel e botão rectangular no canto
+  inferior direito em computador.
 - O mapa do Google só carrega depois de o visitante clicar em "Mostrar mapa".
 - Sem JavaScript o site continua utilizável: a navegação fica visível e a página da ementa mostra o telefone.
 - Sem cookies, sem analítica e sem efeitos de cursor. Há uma só animação suave, nos títulos das secções,

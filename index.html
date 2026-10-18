@@ -71,8 +71,8 @@
   <a class="saltar" href="#conteudo">Saltar para o conteúdo</a>
 
   <!-- ===================== CABEÇALHO =====================
-       Em telemóvel mostra o nome e o botão de navegação (o "Ligar" está na barra fixa no fundo do ecrã).
-       Em computador mostra a navegação e o botão "Ligar". -->
+       Em telemóvel mostra o nome e o botão de navegação. Em computador mostra a navegação.
+       O "Ligar" é o botão fixo no fim da página (barra no telemóvel, botão no canto em computador). -->
   <header class="cabecalho">
     <div class="container cabecalho__linha">
       <a class="cabecalho__nome" href="#topo" aria-label="Arabesco, início">Arabesco</a>
@@ -85,7 +85,6 @@
         <a href="#contactos">Contactos</a>
       </nav>
       <div class="cabecalho__acoes">
-        <a class="btn btn--pequeno cabecalho__ligar" href="tel:+351217783344">Ligar</a>
         <button class="nav-botao" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir navegação">
           <span class="nav-botao__barras" aria-hidden="true"></span>
         </button>
@@ -307,7 +306,8 @@
     <p class="container rodape__copy">© 2026 Arabesco. Todos os direitos reservados.</p>
   </footer>
 
-  <!-- Barra fixa no fundo do ecrã, só em telemóvel. Liga por telefone porque não há WhatsApp conhecido.
+  <!-- Botão fixo, sempre visível: barra no fundo do ecrã em telemóvel, botão no canto em computador.
+       Liga por telefone porque não há WhatsApp conhecido.
        EDITAR: se houver telemóvel com WhatsApp, trocar o href por https://wa.me/351XXXXXXXXX e o texto por "WhatsApp". -->
   <a class="ligar-flutuante" href="tel:+351217783344" aria-label="Ligar para o Arabesco, 217 783 344">
     <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
