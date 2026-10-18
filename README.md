@@ -40,3 +40,9 @@ Antes de publicar, resolver os pontos "Bloqueiam a publicação" do `PENDENTES.m
 - Sem cookies, sem analítica e sem efeitos de cursor. Há uma só animação suave, nos títulos das secções,
   desligada para quem pede menos movimento no sistema.
 - As avaliações são reais, copiadas do Google Maps com o nome do autor. Não alterar o texto.
+
+## Depois de alterar o CSS ou o JavaScript
+
+Os navegadores guardam o `style.css` e o `script.js` em cache. Para os visitantes verem logo a alteração, mudar o número
+de versão (por exemplo, `?v=3.1` para `?v=3.2`) nas ligações a `style.css`, `script.js` e `ementa-dados.js`,
+em todas as páginas HTML. Se alterares só o texto da ementa em `ementa-dados.js`, muda também o número nessa ligação.
